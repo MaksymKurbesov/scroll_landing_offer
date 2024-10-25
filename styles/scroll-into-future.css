@@ -1,0 +1,55 @@
+.scroll-into-future {
+    background: rgb(255, 240, 221);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-into-future h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.scroll-into-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.scroll-into-buttons button {
+    border-radius: 10px;
+}
+
+.scroll-into-buttons button img {
+    position: relative;
+    left: -44px;
+    z-index: 5;
+    filter: invert(1);
+}
+
+@media screen and (max-width: 900px) {
+    .scroll-into-future {
+        height: 300px;
+    }
+
+    .scroll-into-future h2 {
+        font-size: 30px;
+    }
+
+    .scroll-into-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .scroll-into-buttons button {
+        padding: 13px 20px 13px 60px;
+        width: 220px;
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,18 @@
+{
+  "name": "scroll-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "https://app.leadteh.ru",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "swiper": "^11.1.11"
+  }
+}
