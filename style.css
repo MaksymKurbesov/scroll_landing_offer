@@ -10,6 +10,24 @@
   --black: rgb(16, 16, 16);
 }
 
+.video-bg {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*object-fit: contain;*/
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-container {
+  /*height: 100%;*/
+}
+
 .connectButton {
   cursor: pointer;
 }
@@ -166,6 +184,8 @@ header {
 
 .hero-section {
   margin-bottom: 150px;
+  position: relative;
+  height: 100vh;
 }
 
 .hero-section > img {
